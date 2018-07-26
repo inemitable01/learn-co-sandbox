@@ -1,2 +1,7 @@
-def say_hello(your_name,my_name="dory")
+def about_me = { "super power" => "to fly", "adjective" => "excellent Emily" }
+  about_me.each do|key,value| 
+    puts "#{key} #{value}"
+  end
+
+  
 
