@@ -16,5 +16,5 @@ def FacebookProfiles
  
  end
  
- becca= FacebookProfiles.new
+ becca= FacebookProfiles.new ("becca"", "23")
  
