@@ -16,7 +16,7 @@ def FacebookProfiles
  
  end
  
- becca= FacebookProfiles.new ("Becca", "23")
+ becca = FacebookProfiles.new("Becca", "23")
  becca.bio = "This is my bio!"
 becca.job = "Elementary teacher"
 
