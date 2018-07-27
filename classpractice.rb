@@ -20,8 +20,7 @@ def FacebookProfiles
  puts "My name is #{name}! I am #{age} old."
  end
  
- becca = FacebookProfiles.new("Emily", "16")
- becca.bio = "This is my bio!"
-becca.job = "Highschool student"
+ Emily = FacebookProfiles.new("Emily", "16")
+ Emily.bio = "This is my bio!"
+Emily.job = "Highschool student"
 
-puts "I am an #{"
