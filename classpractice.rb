@@ -13,7 +13,7 @@ def FacebookProfiles
  end
  
  attr_accessor :job
- 
+ puts "my name is #{name}! I am #{@age} old."
  end
  
  becca = FacebookProfiles.new("Becca", "23")
