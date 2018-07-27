@@ -17,11 +17,11 @@ def FacebookProfiles
  end
  
  attr_accessor :job
- puts "My name is #{@name}! I am #{@age} old."
+ puts "My name is #{name}! I am #{age} old."
  end
  
- becca = FacebookProfiles.new("Becca", "23")
+ becca = FacebookProfiles.new("Emily", "16")
  becca.bio = "This is my bio!"
-becca.job = "Elementary teacher"
+becca.job = "Highschool student"
 
 puts "I am an #{"
