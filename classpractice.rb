@@ -4,7 +4,7 @@ def FacebookProfiles
       @age = age
    end
    
-  def bio
+  def bio= (bio)
 @bio = bio  
  end
  
@@ -20,3 +20,4 @@ def FacebookProfiles
  becca.bio = "This is my bio!"
 becca.job = "Elementary teacher"
 
+puts "I am an #{"
