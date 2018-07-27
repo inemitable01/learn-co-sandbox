@@ -8,6 +8,10 @@ def FacebookProfiles
 @bio = bio  
  end
  
+ def bio
+   @bio
+ end 
+ 
  def name
    @name
  end
